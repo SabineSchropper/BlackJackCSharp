@@ -111,6 +111,11 @@ namespace BlackJack
             }
             return result;
         }
+        /// <summary>
+        /// The Opponent gets new cards as long as the value of his cards i more than 15
+        /// </summary>
+        /// <param name="opponentValue"></param>
+        /// <returns>opponentValue</returns>
         public int OpponentDecision(int opponentValue)
         {
             int value = 0;
